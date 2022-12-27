@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.izquierda{
+    height: 100vh;
+    width: 50%;
+}
+.logo{
+    width: 50%;
+    height: 50%;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+.derecha{
+    height: 100vh;
+    width: 50%;
+    background: url(Imagenes/inicio.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.dividir{
+    display: flex;
+}
+.h{
+    font-size: 35px;
+    text-align: center;
+    padding: 0px 100px 0px 75px;
+    font-family: "Segoe UI";
+    line-height: 1.5;
+    padding-bottom: 30px;
+    margin-top: 0px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Segoe UI";
+}
+.boton{
+   background-color: black;
+   border-radius: 10px;
+   border-color: black;
+   padding: 20px 15px;
+   display: inline-block;
+   margin-left: 35%;
+   
+}
+.boton:hover{
+    background-color: rgba(107, 106, 84, 0.87);
+
+}
